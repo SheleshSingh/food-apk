@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  .navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color:#0d0de1;
+    width: 100%;
+  }
+  .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
+    cursor: pointer;
+  }
+  .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search input{
+    width: 24rem;
+    outline: none;
+  
+  }
+  
+  .right{
+    display: flex;
+    justify-content:center;
+    width: 40%;
+  }
+  .right div{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .right div:hover{
+    background-color: black;
+  }
+  .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+    margin-top: 0.5rem;
+    height: 50vh;
+    /* background-color: yellow; */
+  }
+  .slider img{
+    border-radius: 5%;
+    border: 2px solid hotpink;
+    transition: transform 0.3s ease ;
+  }
+  .slider img:hover{
+    transform: translateZ(70px);
+    /* transform: scaleX(500px); */
+    border: 2px solid yellow;
+  }
+  .slider2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+  }
+  .slider2 img{
+    border-radius: 5%;
+    border: 2px solid hotpink;
+    transition: transform 0.3s ease ;
+  }
+  .slider2 img:hover{
+    transform: translateZ(70px);
+    /* transform: scaleX(500px); */
+    border: 2px solid yellow;
+  }
+ .btn{
+  padding: 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: yellow;
+  border-radius: 5%;
+  margin: 2rem;
+  /* border: 2px solid blue; */
+ }
+ .img{
+  perspective: 800px;
+ }
+ .img img{
+    margin-left: 2rem;
+    border-radius: 5%;
+    border: 2px solid hotpink;
+    transition: transform 0.3s ease;
+ }
+.img img:hover{
+  transform: translateZ(40px);
+  /* transform: scaleX(500px); */
+  border: 2px solid yellow;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
